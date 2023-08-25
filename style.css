@@ -1,0 +1,13 @@
+.primary-btn{
+    padding: 5px 25px; 
+    background: hwb(83 21% 14%);
+    color: black;
+}
+.primary-btn:hover{
+    background: hwb(83 2% 27%);
+}
+
+
+/* input {
+    height:75px;
+} */

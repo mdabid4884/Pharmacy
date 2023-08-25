@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/content/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div
+        class="hero flex justify-center	gap-10 min-h-screen bg-[url('/content/image/medical-2.jpg')]">
+        <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 flex-1">
+            <div class="card-body">
+                <h1 class="font-bold text-4xl">LOGIN</h1>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text after:content-['*'] after:ml-0.5 after:text-red-500">Username or Email
+                            Address</span>
+                    </label>
+                    <input type="text" placeholder="username or email" class="input input-bordered" />
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text after:content-['*'] after:ml-0.5 after:text-red-500">Password</span>
+                    </label>
+                    <input type="text" placeholder="password" class="input input-bordered" />
+                </div>
+                <div class="flex mt-6">
+                    <a href="/content/layout.html">
+                        <button class="primary-btn">Login</button>
+                    </a>
+                    <label class="label cursor-pointer">
+                        <input type="checkbox" class=" w-4 h-4 rounded ml-0.5 mr-0.5 accent-blue-500" />
+                        <span class="label-text">Remember me</span>
+                    </label>
+                </div>
+                <label class="label">
+                    <a href="/content/register.html" class="label-text-alt link link-hover">Not A User Register Now?</a>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
